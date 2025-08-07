@@ -76,7 +76,6 @@ A lexer is used to transform the text we write into something that is more easil
 
 > ## Beware it's huge!
 
-***
 ```go
 func (l *Lexer) NextToken() token.Token {
 	var tok token.Token
