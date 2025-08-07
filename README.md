@@ -72,7 +72,7 @@ func (i *Integer) Type() ObjectType { return INTEGER_OBJ }
 func (i *Integer) Inspect() string  { return fmt.Sprintf("%d", i.Value) }
 ```
 ### Lexer for lexical analysis
-A lexer is used to transform the text we write into something that is more easily processed by our interpreter. What we do in the case of a lexer is we convert the text into tokens and then pass this array of tokens into or parser later. This involves identifying keywords, indentifiers for variables, and other important symbols. Once we have tokenized the entire input we can pass it the parser. Here is what our final NextToken function in our Lexer looks like. ***
+A lexer is used to transform the text we write into something that is more easily processed by our interpreter. What we do in the case of a lexer is we convert the text into tokens and then pass this array of tokens into or parser later. This involves identifying keywords, indentifiers for variables, and other important symbols. Once we have tokenized the entire input we can pass it the parser. Here is what our final NextToken function in our Lexer looks like.
 
 > ## Beware it's huge!
 
