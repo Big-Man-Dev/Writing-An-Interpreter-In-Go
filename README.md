@@ -207,4 +207,4 @@ func Eval(node ast.Node, env *object.Environment) object.Object {
 	return nil
 }
 ```
-And that's it. We now have all the pieces together for our Monkey programming language!
+And that's it. We now have all of the pieces together for our Monkey programming language!
